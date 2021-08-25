@@ -104,5 +104,28 @@ h3 {font-size: var(--fs-h3);}
 }
 
 @media (min-width:600px) {
-    
+
+    .intro {
+        display: grid;
+        width: min-content;
+        margin:0 auto;
+        grid-column-gap:1em;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+            grid-template-columns: min-content max-content;
+    }
+
+    .intro__img {
+        grid-area: img;
+        min-width: 250px;
+    }
+
+    .section__subtitle--intro {
+        align-self: start;
+        grid-column: -2/2;
+        grid-row: 2;
+        text-align: right;
+    }
+
 }
