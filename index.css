@@ -115,6 +115,26 @@ h3 {font-size: var(--fs-h3);}
     display: inline-block;
 }
 
+
+/* services section */
+
+
+ .my_services {
+     background-color: #9e9e9e;
+     background-image: url(images/services-bg.jpg);
+     background-size: cover;
+     background-blend-mode: multiply;
+     color: var(--clr-light);
+ }
+
+
+
+
+
+
+
+
+
 @media (min-width:600px) {
 
     .intro {
