@@ -59,12 +59,17 @@ img {
 
 strong {font-weight: var(--fw-bold);}
 
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px ;
+}
+
 /* buttons */
 
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
-    background: var (--clr-accent);
+    background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
