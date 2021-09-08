@@ -168,6 +168,10 @@ h3 {font-size: var(--fs-h3);}
      opacity:0.25;
  }
 
+ .services {
+     margin-bottom: 4em;
+ }
+
  .service {
      max-width: 500px;
      margin: 0 auto;
