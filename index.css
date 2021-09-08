@@ -181,7 +181,8 @@ h3 {font-size: var(--fs-h3);}
      .services {
          display:flex;
          max-width: 1000px;
-         margin: 0  auto;
+         margin-left: auto;
+         margin-right: auto;
      }
 
      .service + .service {
@@ -190,7 +191,10 @@ h3 {font-size: var(--fs-h3);}
  }
 
 
-
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 
 
@@ -198,6 +202,11 @@ h3 {font-size: var(--fs-h3);}
 
 
 @media (min-width:600px) {
+
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+    }
 
     .intro {
         display: grid;
